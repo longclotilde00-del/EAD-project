@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead>
+    <eadheader>
+        <eadid>FRAD029_Q29AD_002_02</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Archives civiles. - Séries A et B</titleproper>
+                <subtitle>Inventaire sommaire des Archives départementales antérieures à
+                    1790</subtitle>
+                <subtitle>Finistère. Tome Ier</subtitle>
+                <author>Rédigé par MM. Le Men et Luzel, archivistes.</author>
+            </titlestmt>
+            <publicationstmt>
+                <address>
+                    <addressline>Quimper</addressline>
+                </address>
+                <date>1889</date>
+                <publisher>Département du Finistère</publisher>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Cet instrument de recherche a été produit au moyen du logiciel oXygen
+                    le<date>8 décembre 2023.</date></creation>
+            <langusage>Instrument de recherche rédigé en langue française.</langusage>
+            <descrules>Encodage en XML-EAD (version 2002)</descrules>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="fonds">
+        <did>
+            <head>Série B. Cours et juridictions. — Parlements, bailliages, sénéchaussées et autres
+                juridictions secondaires, cours des comptes. Cours des Aides, Cours des
+                Monnaies.</head>
+            <unitid>B 1-530</unitid>
+            <unittitle>Présidial de Quimper.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1673-01-01/1789-12-31"
+                >1673-1789</unitdate>
+            <note>
+                <p>La présente version de l'inventaire reprend, y compris dans l'orthographe, les analyses sommaires dressées en 1889 par les archivistes. Ces analyses ne reflètant peut-être pas l'exhaustivité des registres, liasses et cartons composant le fonds, le lecteur est invité à en approfondir le contenu en les consultant directement.</p>
+            </note>
+            <origination><corpname>Présidial de Quimper</corpname>
+            </origination>
+        </did>
+        <controlaccess>
+            <geogname>Quimper (Finistère, France)</geogname>
+            <subject>justice royale</subject>
+        </controlaccess>
+        <dsc>
+            <c level="subseries">
+                <did>
+                    <unitid>B 1-106</unitid>
+                    <unittitle>Minutes du greffe, causes ordinaires.</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1673-01-01/1789-12-31"
+                        >1673-1789</unitdate>
+                </did>
+                <c level="item">
+                    <did>
+                        <unitid>B 1</unitid>
+                        <unitdate calendar="gregorian" era="ce" normal="1673-01-01/1674-12-31"
+                            >1673-1674</unitdate>
+                        <physdesc>
+                            <extent>196 feuillets.</extent>
+                            <physfacet>In-folio. Papier.</physfacet>
+                            <genreform>Registre.</genreform>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Procès entre <persname>Étienne Malherbe Kerleffri</persname>, le
+                                <corpname>chapitre de Cornouaille</corpname> et la dame
+                                <persname>Anne Le Gouvello</persname>, douairière de
+                                <geogname>Lamprat</geogname>, au sujet du payement d'une somme
+                            d'argent.</p>
+                        <p>Commandement fait par le siège, sur la remontrance de l'avocat du Roi aux
+                            propriétaires et fermiers des maisons donnant sur la <geogname>rue
+                                Dorée</geogname>, qui conduit de l’église des Cordeliers de
+                                <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname> à Ia porte de la <geogname>rue Neuve</geogname>,
+                            de la faire nettoyer dans 24 heures des attrois et immondices dont elle
+                            est tellement encombrée que personne n’y peut passer sans aller bien
+                            avant dans la boue.</p>
+                        <p>Défense aux notaires subalternes de la sénéchaussée de <geogname
+                                source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname> de rapporter des actes pronaux, chapitres des
+                            fréries, d'anticiper sur les droits des notaires royaux et
+                            d'instrumenter hors de leur territoire, sous peine de nullité des actes,
+                            etc.</p>
+                        <p>Lecture et publication du contrat de donation mutuelle passé entre
+                                <persname>François de Kersulgar</persname>, écuyer, et
+                                <persname>Marie Billoart</persname>, dame de
+                                <geogname>Mézanlez</geogname>.</p>
+                        <p>Remontrance de maître <persname>Guy Bougeant</persname>, procureur,
+                            concernant a une femme de mauvaise vie nommee <persname>Jeanne
+                                Bothuan</persname> laquelle demeure dans la <geogname>rue du
+                                Gueodet</geogname>, à <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname>, où elle est hantée par des coureurs et ribleurs
+                            de pavés qui tiennent ceux de la rue en crainte de jour et de nuit, et
+                            sentence qui condamne ladite femme à vider la ville et faubourgs dans
+                            vingt-quatre heures à peine du fouet.</p>
+                        <p>Requête de M. <persname>François Le Goazre</persname>, doyen des
+                            conseillers au siège présidial, aux fins d'être admis à participer aux
+                            distributions des procès jugés pendant le temps qu'il a passé aux États
+                            de <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/6454050/vitre.html"
+                                >Vitré</geogname> pour le service du Roi et les intérêts de la
+                            province.</p>
+                        <p>Jugement qui condamne <persname>Brieuc Le Moyne</persname>,
+                                <persname>Bertrand Canevet</persname>, <persname>Pierre
+                                Mazo</persname> et <persname>Jean Audouin</persname>, procureurs, à
+                            payer chacun 20 sous à <persname>Bertrand Bougarin</persname>, maître
+                            menuisier, pour réparations faites par lui à leurs bancs dans le bureau
+                            du présidial.</p>
+                    </scopecontent>
+                </c>
+                <c level="item">
+                    <did>
+                        <unitid>B 2</unitid>
+                        <unitdate calendar="gregorian" era="ce" normal="1674-01-01/1675-12-31"
+                            >1674-1675</unitdate>
+                        <physdesc>
+                            <extent>172 feuillets.</extent>
+                            <physfacet>In-folio. Papier.</physfacet>
+                            <genreform>Registre.</genreform>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Ordre d'enregistrer la déclaration du Roi du 15 novembre 1674, portant
+                            règlement pour la marque sur l’étain, et l’édit du mois de septembre de
+                            la même année relatif à l’établissement des bureaux royaux pour le dépôt
+                            des saisies mobilières.</p>
+                        <p>Défaut au profit de messire <persname>Jean Bidault</persname>, contre le
+                            général de la paroisse de <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/6431024/porspoder.html"
+                                >Porspoder</geogname>.</p>
+                        <p>Procès entre messire <persname>Alain Kerouartz</persname>, et les
+                            habitants et tréviens de la paroisse de <geogname normal="Rumengol"
+                                authfilenumber="https://www.geonames.org/2982167/rumengol.html"
+                                source="GeoNames">Rumengols</geogname> représentés par
+                                <persname>Tanguy Rosmorduc</persname>, leur marguillier, au sujet de
+                            l'entretien d'un organiste dans ladite paroisse.</p>
+                        <p>Protestation de serment de M. <persname>Jacques Huon</persname>, sieur de
+                            Kerullas, en qualité de sénéchal et lieutenant de la juridiction du
+                                <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2986158/pont-l-abbe.html"
+                                >Pont l'Abbé</geogname>.</p>
+                        <p>Adjudication faite à la requête de noble homme <persname>F.
+                                Furic</persname>, sieur de Keranguen, de deux maisons situées l’une
+                                <geogname>rue du Rossignol</geogname> et l'autre <geogname>rue du
+                                Frout</geogname>, en la ville de <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname>, saisies sur demoiselle <persname>Françoise
+                                Geraudeau</persname>, veuve de feu noble homme <persname>Bernard
+                                Huelvan</persname>, sieur de Penanros.</p>
+                        <p>Défaut au profit de <persname>Jacques Kerfridin</persname>, contre
+                                <persname>Prigent Hamon</persname>.</p>
+                        <p>Sentence qui condamne <persname>Claude de Marigo</persname>, écuyer, au
+                            payement d'un rachat au profit de <persname>Hervé Du Bot</persname>,
+                            écuyer, et dame <persname>Jeanne de Jauréguy</persname>.</p>
+                        <p>Défaut au profit de <persname>Louis Bihan</persname> et de messire
+                                <persname>Louis Du Dresit</persname>, contre <persname>Sébastien de
+                                Moëlien</persname>.</p>
+                        <p>Procès entre dame <persname>Roberte de Kerloaguen</persname>, messire
+                                <persname>Guy de Kersulguen</persname>, le <corpname>chapitre de
+                                Cornouaille</corpname>, messire <persname>François de
+                                Tremie</persname>, les dames Bénédictines de Quimper,
+                                <persname>Guillaume Guégant</persname>, écuyer, l'abbesse de Kerlot,
+                            le marquis de Molac, messire <persname>Jean Le Nobletz</persname> et
+                                <persname>Corentin de Tromelin</persname>, écuyer, relativement à la
+                            succession de messire <persname>Jean de Kerloaguen</persname>.</p>
+                    </scopecontent>
+                </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>

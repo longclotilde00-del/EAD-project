@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead>
+    <eadheader>
+        <eadid>2254W</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>BORDEREAU DE VERSEMENT
+                    AUX ARCHIVES DÉPARTEMENTALES</titleproper>
+                <subtitle>( à remplir en 3 exemplaires)</subtitle>
+                <author>Répertoire réalisé par S. SAUVADON</author>
+            </titlestmt>
+            <publicationstmt>
+                <address>
+                    <addressline>Ardèche</addressline>
+                </address>
+                <date>2012</date>
+                <publisher>Direction des Archives Départementales de l’Ardèche</publisher>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Cet instrument de recherche a été produit au moyen du logiciel oXygen
+                le<date>12 mars 2026.</date></creation>
+            <langusage>Instrument de recherche rédigé en langue française.</langusage>
+            <descrules>Encodage en XML-EAD (version 2002)</descrules>
+        </profiledesc>
+    </eadheader>
+    <!-- archdesc et suite de header réalisé avec claude !!!! vérifier dans le manuel -->
+    <archdesc level="recordgrp"> <!-- ce niveau est plus approprié pour un versement administratif dont on ne connait pas bien la structure organique -->
+        <did>
+            <unitid countrycode="FR" repositorycode="FRAD007">2254 W</unitid>
+            <unittitle>Tribunal de grande instance de Privas</unittitle>
+            <unitdate normal="1952/2007" era="ce" calendar="gregorian">
+                1952-2007</unitdate>
+            <physdesc>
+                <extent>341 articles</extent>
+                <extent unit="ml">38,10</extent>
+            </physdesc>
+            <repository>
+                <corpname>Archives départementales de l'Ardèche</corpname>
+            </repository>
+            <origination>
+                <corpname authfilenumber="FRAD007_NP_2254W" role="producteur">
+                    Tribunal de grande instance de Privas</corpname>
+            </origination>
+            <langmaterial>
+                <language langcode="fre">français</language>
+            </langmaterial>
+        </did>
+        <acqinfo>
+            <p>Versement du Tribunal de grande instance de Privas. 
+                Pris en charge le 18 octobre 2012. Agent responsable : C. Chaize. 
+                Répertoire réalisé par S. Sauvadon.</p>
+        </acqinfo>
+        <arrangement>
+            <p>341 articles classés par thèmes et par dates.</p>
+        </arrangement>
+        <processinfo>
+            <p>Rétroconversion encodée en XML-EAD 2002 en 2026.</p>
+        </processinfo>
+        <controlaccess>
+            <geogname source="GeoNames" authfilenumber="https://www.geonames.org/2985290/privas.html">Privas (Ardèche, France)</geogname>
+            <subject>Administration</subject>
+        </controlaccess>
+        <dsc>
+            <!--partie individuelle-->
+            <c level="file" id="c2254W35"> <!-- selon le manuel : mettre un id à tous les c en commençant par une lettre -->
+                <did>
+                    <unitid countrycode="FR" repositorycode="FRAD007">2254W35</unitid><!-- rajouter countrycode et repositorycode pour autres articles -->
+                    <unittitle>Messages de la gendarmerie et de la police.</unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1978/1980" 
+                        >1978-1980</unitdate>)<!-- modifier le reste des dates pour les autres articles avec normal -->
+                <controlaccess><!-- doit eètre frere de did -->
+                        <corpname source="wikidata" authfilenumber="Q121484" role="producteur">Police nationale française</corpname><!-- ajouterle rle pour corpname -->
+                        <corpname source="wikidata" authfilenumber="Q1422336" role="producteur">Gendarmerie nationale</corpname>
+                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-188">rapport de police</genreform>
+                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-186">rapport de gendarmerie</genreform>
+                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-471">police</subject>
+                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1135">gendarmerie</subject>
+                </controlaccess>
+                </did>
+                <c/>
+                <c level="file">
+                    <did>
+                        <unitid>2254 W 36</unitid>
+                        <unittitle>Projets de réforme (1967-1970).
+                            Direction des affaires civiles (1969).
+                            Cour de cassation : textes (1962-1970).
+                            Tribunaux extérieurs civil et pénal (1964-1969).</unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1964-01-01/1970-12-31"
+                            >1964-1970</unitdate>
+                    </did>
+                    <!--<scopecontent>
+                        <p>Procès entre <persname>Étienne Malherbe Kerleffri</persname>, le
+                            <corpname>chapitre de Cornouaille</corpname> et la dame
+                            <persname>Anne Le Gouvello</persname>, douairière de
+                            <geogname>Lamprat</geogname>, au sujet du payement d'une somme
+                            d'argent.</p>
+                        <p>Commandement fait par le siège, sur la remontrance de l'avocat du Roi aux
+                            propriétaires et fermiers des maisons donnant sur la <geogname>rue
+                                Dorée</geogname>, qui conduit de l’église des Cordeliers de
+                            <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname> à Ia porte de la <geogname>rue Neuve</geogname>,
+                            de la faire nettoyer dans 24 heures des attrois et immondices dont elle
+                            est tellement encombrée que personne n’y peut passer sans aller bien
+                            avant dans la boue.</p>
+                        <p>Défense aux notaires subalternes de la sénéchaussée de <geogname
+                                source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                >Quimper</geogname> de rapporter des actes pronaux, chapitres des
+                            fréries, d'anticiper sur les droits des notaires royaux et
+                            d'instrumenter hors de leur territoire, sous peine de nullité des actes,
+                            etc.</p>
+                        <p>Lecture et publication du contrat de donation mutuelle passé entre
+                            <persname>François de Kersulgar</persname>, écuyer, et
+                            <persname>Marie Billoart</persname>, dame de
+                            <geogname>Mézanlez</geogname>.</p>
+                        <p>Remontrance de maître <persname>Guy Bougeant</persname>, procureur,
+                            concernant a une femme de mauvaise vie nommee <persname>Jeanne
+                                Bothuan</persname> laquelle demeure dans la <geogname>rue du
+                                    Gueodet</geogname>, à <geogname source="GeoNames"
+                                        authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                        >Quimper</geogname>, où elle est hantée par des coureurs et ribleurs
+                            de pavés qui tiennent ceux de la rue en crainte de jour et de nuit, et
+                            sentence qui condamne ladite femme à vider la ville et faubourgs dans
+                            vingt-quatre heures à peine du fouet.</p>
+                        <p>Requête de M. <persname>François Le Goazre</persname>, doyen des
+                            conseillers au siège présidial, aux fins d'être admis à participer aux
+                            distributions des procès jugés pendant le temps qu'il a passé aux États
+                            de <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/6454050/vitre.html"
+                                >Vitré</geogname> pour le service du Roi et les intérêts de la
+                            province.</p>
+                        <p>Jugement qui condamne <persname>Brieuc Le Moyne</persname>,
+                            <persname>Bertrand Canevet</persname>, <persname>Pierre
+                                Mazo</persname> et <persname>Jean Audouin</persname>, procureurs, à
+                            payer chacun 20 sous à <persname>Bertrand Bougarin</persname>, maître
+                            menuisier, pour réparations faites par lui à leurs bancs dans le bureau
+                            du présidial.</p>
+                    </scopecontent>-->
+                </c>
+                <c level="file">
+                    <did>
+                        <unitid>2254 W 37</unitid>
+                        <unittitle>Fonctionnement du tribunal (1962).
+                            Demandes diverses (1967-1972).
+                            Audiences solennelles du tribunal (1967-1968).
+                            Extraditions (1970-1979). Statistiques (1967-1969).
+                            Commission rogatoire civile et pénale avec l’étranger (1972).</unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1972-12-31"
+                            >1962-1972</unitdate>
+                        <controlaccess>
+                            <corpname></corpname>
+                            <geogname></geogname>
+                            <subject></subject>
+                        </controlaccess>
+                        <!--<physdesc>
+                            <extent>172 feuillets.</extent>
+                            <physfacet>In-folio. Papier.</physfacet>
+                            <genreform>Registre.</genreform>
+                        </physdesc>
+                    </did>
+                    <scopecontent>
+                        <p>Ordre d'enregistrer la déclaration du Roi du 15 novembre 1674, portant
+                            règlement pour la marque sur l’étain, et l’édit du mois de septembre de
+                            la même année relatif à l’établissement des bureaux royaux pour le dépôt
+                            des saisies mobilières.</p>
+                        <p>Défaut au profit de messire <persname>Jean Bidault</persname>, contre le
+                            général de la paroisse de <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/6431024/porspoder.html"
+                                >Porspoder</geogname>.</p>
+                        <p>Procès entre messire <persname>Alain Kerouartz</persname>, et les
+                            habitants et tréviens de la paroisse de <geogname normal="Rumengol"
+                                authfilenumber="https://www.geonames.org/2982167/rumengol.html"
+                                source="GeoNames">Rumengols</geogname> représentés par
+                            <persname>Tanguy Rosmorduc</persname>, leur marguillier, au sujet de
+                            l'entretien d'un organiste dans ladite paroisse.</p>
+                        <p>Protestation de serment de M. <persname>Jacques Huon</persname>, sieur de
+                            Kerullas, en qualité de sénéchal et lieutenant de la juridiction du
+                            <geogname source="GeoNames"
+                                authfilenumber="https://www.geonames.org/2986158/pont-l-abbe.html"
+                                >Pont l'Abbé</geogname>.</p>
+                        <p>Adjudication faite à la requête de noble homme <persname>F.
+                                Furic</persname>, sieur de Keranguen, de deux maisons situées l’une
+                            <geogname>rue du Rossignol</geogname> et l'autre <geogname>rue du
+                                Frout</geogname>, en la ville de <geogname source="GeoNames"
+                                    authfilenumber="https://www.geonames.org/2984701/quimper.html"
+                                    >Quimper</geogname>, saisies sur demoiselle <persname>Françoise
+                                        Geraudeau</persname>, veuve de feu noble homme <persname>Bernard
+                                            Huelvan</persname>, sieur de Penanros.</p>
+                        <p>Défaut au profit de <persname>Jacques Kerfridin</persname>, contre
+                            <persname>Prigent Hamon</persname>.</p>
+                        <p>Sentence qui condamne <persname>Claude de Marigo</persname>, écuyer, au
+                            payement d'un rachat au profit de <persname>Hervé Du Bot</persname>,
+                            écuyer, et dame <persname>Jeanne de Jauréguy</persname>.</p>
+                        <p>Défaut au profit de <persname>Louis Bihan</persname> et de messire
+                            <persname>Louis Du Dresit</persname>, contre <persname>Sébastien de
+                                Moëlien</persname>.</p>
+                        <p>Procès entre dame <persname>Roberte de Kerloaguen</persname>, messire
+                            <persname>Guy de Kersulguen</persname>, le <corpname>chapitre de
+                                Cornouaille</corpname>, messire <persname>François de
+                                    Tremie</persname>, les dames Bénédictines de Quimper,
+                            <persname>Guillaume Guégant</persname>, écuyer, l'abbesse de Kerlot,
+                            le marquis de Molac, messire <persname>Jean Le Nobletz</persname> et
+                            <persname>Corentin de Tromelin</persname>, écuyer, relativement à la
+                            succession de messire <persname>Jean de Kerloaguen</persname>.</p>
+                    </scopecontent>-->
+                    </did>
+                 </c>
+                       <c level="file">
+                            <did>
+                                <unitid>2254 W 38</unitid>
+                                <unittitle>Aide judiciaire.</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1976-01-01/1979-12-31"
+                                    >1976-1979</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 39</unitid>
+                                <unittitle>Aide judiciaire en appel.</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1976-01-01/1981-12-31"
+                                    >1976-1981</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 40</unitid>
+                                <unittitle>Plaignants d’habitude.</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1969-01-01/1979-12-31"
+                                    >1969-1979</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 41</unitid>
+                                <unittitle>Plaignants d’habitude (1962-1980).
+                                    Plaintes contre des officiers ministériels (1962-1971).</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1980-12-31"
+                                    >1962-1980</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 42</unitid>
+                                <unittitle>Tableau de service du T.G.I. (1962-1963).
+                                    Communication de pièces et dossiers de procédure (1967-1972).
+                                    Plaintes diverses (1978).</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1978-12-31"
+                                    >1962-1978</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 43</unitid>
+                                <unittitle>Avocats : poursuites disciplinaires (1977).
+                                    Avoués : correspondance (1962-1971).
+                                    Syndics : correspondance (1965-1969).
+                                    Huissiers : correspondance (1968-1977).
+                                    Honorariat (1966-1971).
+                                    Création d’offices de notaire (1968-1971).
+                                    Notaires : correspondance (1970-1976).
+                                    Officiers de police judiciaire : notices individuelles, correspondance (1972-1976).</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1976-12-31"
+                                    >1962-1976</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 44</unitid>
+                                <unittitle>Experts judiciaires, experts médecins : annuaires, listes (1977-1979),
+                                    correspondance concernant les inscriptions au tableau (1973-1981).</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1973-01-01/1981-12-31"
+                                    >1973-1981</unitdate>
+                            </did>
+                        </c>
+                        <c level="file">
+                            <did>
+                                <unitid>2254 W 45</unitid>
+                                <unittitle>Etat civil : correspondance de généalogistes (1973-1980), de mairies (1973-1975).
+                                    Pupilles de la Nation : correspondance, rapports annuels, requêtes (1946-1971).
+                                    Nationalité : correspondance concernant les déclarations (1973-1975).</unittitle>
+                                <unitdate calendar="gregorian" era="ce" normal="1946-01-01/1980-12-31"
+                                    >1946-1980</unitdate>
+                            </did>
+                        </c>
+                    </did>
+            </c>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
+
