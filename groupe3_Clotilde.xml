@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd//EN" "ead.dtd">
 <ead>
     <eadheader>
         <eadid>2254W</eadid>
@@ -68,18 +69,18 @@
                     <unitid countrycode="FR" repositorycode="FRAD007">2254W35</unitid><!-- rajouter countrycode et repositorycode pour autres articles -->
                     <unittitle>Messages de la gendarmerie et de la police.</unittitle>
                     <unitdate calendar="gregorian" era="ce" normal="1978/1980" 
-                        >1978-1980</unitdate>)<!-- modifier le reste des dates pour les autres articles avec normal -->
+                        >1978-1980</unitdate><!-- modifier le reste des dates pour les autres articles avec normal -->
                 </did>
                 <controlaccess><!-- doit ètre frere de did -->
                         <corpname source="wikidata" authfilenumber="Q121484" role="producteur">Police nationale française</corpname><!-- ajouterle rle pour corpname -->
                         <corpname source="wikidata" authfilenumber="Q1422336" role="producteur">Gendarmerie nationale</corpname>
-                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-188">rapport de police</genreform>
-                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-186">rapport de gendarmerie</genreform>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-471">police</subject>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1135">gendarmerie</subject>
+                        <genreform source="Liste-authorité-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-188">rapport de police</genreform>
+                        <genreform source="Liste-authorité-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-186">rapport de gendarmerie</genreform>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-471">police</subject>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1135">gendarmerie</subject>
                 </controlaccess>
-                <c/>
-                <c level="file" id="c2254W36">
+            </c>
+            <c level="file" id="c2254W36">
                     <did>
                         <unitid>2254W36</unitid>
                         <unittitle>
@@ -94,9 +95,9 @@
                     <controlaccess>
                         <corpname source="wikidata" authfilenumber="Q1138599" role="producteur">Cour de cassation</corpname><!-- ajouterle rle pour corpname -->
                         <corpname source="wikidata" authfilenumber="Q3029494" role="producteur">Direction des affaires civiles et du sceau</corpname>
-                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-226">texte officiel</genreform>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
+                        <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-226">texte officiel</genreform>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
                     </controlaccess>
                 </c>
                 <c level="file"  id="c2254W37">
@@ -114,12 +115,12 @@
                     <controlaccess>
                         <corpname source="wikidata" authfilenumber="Q41487" role="producteur">Tribunal</corpname><!-- ajouterle rle pour corpname -->
                         <corpname source="wikidata" authfilenumber="Q56088567" role="producteur">Tribunal de grande instance de Privas</corpname>
-                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-219">statistique</genreform>
-                        <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-193">registre d'audience</genreform>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-477">extradition</subject>
-                        <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-150">extérieur</subject>
+                        <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-219">statistique</genreform>
+                        <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-193">registre d'audience</genreform>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-477">extradition</subject>
+                        <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-150">extérieur</subject>
                         <subject source="wikidata" authfilenumber="Q109018823">commission rogatoire en droit français</subject>
                     </controlaccess>
                  </c>
@@ -131,8 +132,8 @@
                                     >1976-1979</unitdate>
                             </did>
                            <controlaccess>
-                               <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
-                               <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1176">tutelle judiciaire</subject>
+                               <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                               <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1176">tutelle judiciaire</subject>
                            </controlaccess>
                         </c>
                         <c level="file" id="c2254W39">
@@ -144,8 +145,8 @@
                             </did>
                             <controlaccess>
                                 <corpname source="wikidata" authfilenumber="Q3000944" role="producteur">Cour d'appel</corpname>
-                                <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
-                                <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1176">tutelle judiciaire</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1176">tutelle judiciaire</subject>
                             </controlaccess>
                         </c>
                         <c level="file" id="c2254W40">
@@ -156,20 +157,25 @@
                                     >1969-1979</unitdate>
                             </did>
                             <controlaccess>
-                                <subject source="Thésaurus-matières SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
-                                <genreform source="Liste d'authorité SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-98">dossier de procédure</genreform>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-98">dossier de procédure</genreform>
                             </controlaccess>
                         </c>
-                        <c level="file">
+                        <c level="file" id="c2254W41">
                             <did>
                                 <unitid>2254 W 41</unitid>
                                 <unittitle>Plaignants d’habitude (1962-1980).
                                     Plaintes contre des officiers ministériels (1962-1971).</unittitle>
-                                <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1980-12-31"
+                                <unitdate calendar="gregorian" era="ce" normal="1962/1980"
                                     >1962-1980</unitdate>
                             </did>
+                            <controlaccess>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-101">officier ministériel</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-98">dossier de procédure</genreform>
+                            </controlaccess>
                         </c>
-                        <c level="file">
+                        <c level="file" id="c2254W42">
                             <did>
                                 <unitid>2254 W 42</unitid>
                                 <unittitle>Tableau de service du T.G.I. (1962-1963).
@@ -178,8 +184,14 @@
                                 <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1978-12-31"
                                     >1962-1978</unitdate>
                             </did>
+                            <controlaccess>
+                                <corpname source="wikidata" authfilenumber="Q56088567" role="producteur">Tribunal de grande instance de Privas</corpname>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-98">dossier de procédure</genreform>
+                            </controlaccess>
                         </c>
-                        <c level="file">
+                        <c level="file" id="c2254W43">
                             <did>
                                 <unitid>2254 W 43</unitid>
                                 <unittitle>Avocats : poursuites disciplinaires (1977).
@@ -190,32 +202,57 @@
                                     Création d’offices de notaire (1968-1971).
                                     Notaires : correspondance (1970-1976).
                                     Officiers de police judiciaire : notices individuelles, correspondance (1972-1976).</unittitle>
-                                <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1976-12-31"
+                                <unitdate calendar="gregorian" era="ce" normal="1962/1976"
                                     >1962-1976</unitdate>
                             </did>
+                            <controlaccess>
+                                <corpname source="wikidata" authfilenumber="Q56088567" role="producteur">Tribunal de grande instance de Privas</corpname>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
+                                <subject source="idref" authfilenumber="http://www.idref.fr/205137857/id">avocat</subject>
+                                <subject source="idref" authfilenumber="050627937">Études de commissaire de justice</subject>
+                                <subject source="idref" authfilenumber="027478807">Notaires</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-73">correspondance</genreform>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-146">notice individuelle</genreform>
+                            </controlaccess>
                         </c>
-                        <c level="file">
+            
+                        <c level="file" id="c2254W44">
                             <did>
                                 <unitid>2254 W 44</unitid>
                                 <unittitle>Experts judiciaires, experts médecins : annuaires, listes (1977-1979),
                                     correspondance concernant les inscriptions au tableau (1973-1981).</unittitle>
-                                <unitdate calendar="gregorian" era="ce" normal="1973-01-01/1981-12-31"
+                                <unitdate calendar="gregorian" era="ce" normal="1973/1981"
                                     >1973-1981</unitdate>
                             </did>
+                            <controlaccess>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3">annuaire</genreform>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-114">liste</genreform>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-73">correspondance</genreform>
+                            </controlaccess>
                         </c>
-                        <c level="file">
+                        <c level="file" id="c2254W45">
                             <did>
                                 <unitid>2254 W 45</unitid>
                                 <unittitle>Etat civil : correspondance de généalogistes (1973-1980), de mairies (1973-1975).
                                     Pupilles de la Nation : correspondance, rapports annuels, requêtes (1946-1971).
                                     Nationalité : correspondance concernant les déclarations (1973-1975).</unittitle>
-                                <unitdate calendar="gregorian" era="ce" normal="1946-01-01/1980-12-31"
+                                <unitdate calendar="gregorian" era="ce" normal="1946/1980"
                                     >1946-1980</unitdate>
                             </did>
+                            <controlaccess>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-307">société</subject>
+                                <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1399">pupille de la nation</subject>
+                                <subject source="idref" authfilenumber="213263750">Etat civil</subject>
+                                <subject source="idref" authfilenumber="217973337">la nationalité</subject>
+                                <subject source="idref" authfilenumber="028714334" normal="Mairies">Mairies</subject>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-184">rapport</genreform>
+                                <genreform source="liste-autorite-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T3-73">correspondance</genreform>
+                            </controlaccess>
                         </c>
-                    </did>
-            </c>
-            </c>
         </dsc>
     </archdesc>
 </ead>
