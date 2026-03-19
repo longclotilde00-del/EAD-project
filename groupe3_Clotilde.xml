@@ -20,16 +20,19 @@
         </filedesc>
         <profiledesc>
             <creation>Cet instrument de recherche a été produit au moyen du logiciel oXygen
-                le<date>12 mars 2026.</date></creation>
+                le<date>19 mars 2026.</date></creation>
             <langusage>Instrument de recherche rédigé en langue française.</langusage>
             <descrules>Encodage en XML-EAD (version 2002)</descrules>
         </profiledesc>
     </eadheader>
     <!-- archdesc et suite de header réalisé avec claude !!!! vérifier dans le manuel -->
-    <archdesc level="recordgrp"> <!-- ce niveau est plus approprié pour un versement administratif dont on ne connait pas bien la structure organique -->
+    <archdesc level="series"> <!--choisir le archdesc pour la partie individuelle : sous-fonds ou série : voir sommaire, fonds divisé en 10 séries différentes-->
         <did>
-            <unitid countrycode="FR" repositorycode="FRAD007">2254 W</unitid>
-            <unittitle>Tribunal de grande instance de Privas</unittitle>
+            <head>
+                description de la série 
+            </head>
+            <unitid>2254 W340</unitid>
+            <unittitle>Direction des Archives Départementales de l’Ardèche</unittitle>
             <unitdate normal="1952/2007" era="ce" calendar="gregorian">
                 1952-2007</unitdate>
             <physdesc>
@@ -60,11 +63,20 @@
         </processinfo>
         <controlaccess>
             <geogname source="GeoNames" authfilenumber="https://www.geonames.org/2985290/privas.html">Privas (Ardèche, France)</geogname>
-            <subject>Administration</subject>
+            <subject>Justice</subject>
         </controlaccess>
-        <dsc>
+        <dsc type="in-depth">
             <!--partie individuelle-->
-            <c level="file" id="c2254W35"> <!-- selon le manuel : mettre un id à tous les c en commençant par une lettre -->
+            <!--est ce que mes articles font partie de plusieurs séries ? faire attention à bien organiser els "c" qu'ils s'imbriquent bien selon la structure-->
+            <!-- sous-fonds, série, item -->
+            <!--mettre sous-série avec à l'intérieur des items-->
+            <!-- numéroter les "c" en fonction de leur niveau -->
+            <!--  -->
+            <c01 level="subseries">
+                <!-- décrire la sous série -->
+                
+            </c01>
+            <c02 level="item" id="c2254W35"> <!-- selon le manuel : mettre un id à tous les c en commençant par une lettre --> 
                 <did>
                     <unitid countrycode="FR" repositorycode="FRAD007">2254W35</unitid><!-- rajouter countrycode et repositorycode pour autres articles -->
                     <unittitle>Messages de la gendarmerie et de la police.</unittitle>
@@ -79,8 +91,8 @@
                         <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-471">police</subject>
                         <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-1135">gendarmerie</subject>
                 </controlaccess>
-            </c>
-            <c level="file" id="c2254W36">
+            </c02>
+            <c03 level="file" id="c2254W36">
                     <did>
                         <unitid>2254W36</unitid>
                         <unittitle>
@@ -99,7 +111,7 @@
                         <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-483">justice</subject>
                         <subject source="thesaurus-SIAF" authfilenumber="http://data.culture.fr/thesaurus/page/ark:/67717/T1-158">organisation judiciaire</subject>
                     </controlaccess>
-                </c>
+                </c03>
                 <c level="file"  id="c2254W37">
                     <did>
                         <unitid>2254 W 37</unitid>
